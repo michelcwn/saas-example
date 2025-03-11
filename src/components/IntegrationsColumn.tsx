@@ -23,8 +23,8 @@ const IntegrationsColumn = (props: {
             }}
             className={twMerge("flex flex-col gap-4 pb-4", className)}
         >
-            {Array.from({ length: 2 }).map((_, i) => (
-                <Fragment>
+            {Array.from({ length: 2 }).map((_, idx) => (
+                <Fragment key={idx}>
                     {integrations.map(({ name, icon, description }, i) => (
                         <div
                             key={i}
