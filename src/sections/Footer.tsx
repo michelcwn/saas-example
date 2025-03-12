@@ -29,6 +29,16 @@ export default function Footer() {
                         </nav>
                     </div>
                 </div>
+                <p className="text-white/50 text-sm w-full mx-auto text-center mt-12">
+                    by michelcwn from
+                    <a
+                        href="https://www.youtube.com/@frontend-tribe"
+                        target="_blank"
+                    >
+                        {" "}
+                        Frontend Tribe
+                    </a>
+                </p>
             </div>
         </section>
     );
